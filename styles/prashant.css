@@ -28,7 +28,7 @@
   z-index: 10;
   font-weight: bold;
   color: #333333;
-  font-size: 80px;
+  font-size: 5rem;
 }
 #prashant p {
   margin: 20px 0;
@@ -61,5 +61,13 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  #prashant {
+    flex-direction: column;
+  }
+  #prashant h1 {
+    font-size: 3rem;
   }
 }
